@@ -2,9 +2,7 @@ import group as g
 
 
 def getTournament(groups):
-    localGroups = g.getGroups(groups)
-
-    return Tournament(localGroups)
+    return Tournament(g.getGroups(groups))
 
 
 class Tournament:
@@ -33,7 +31,9 @@ class Tournament:
             if teamA in groupTeams and teamB in groupTeams:
                 group.playGame(teamA, teamB,
                                teamAgoals, teamBgoals,
-                               teamApenalties, teamBpenalties)
+                               teamApenalties, teamBpenalties,
+                               yellowCardsA, redCardsA, yellowRedCardsA,
+                               yellowCardsB, redCardsB, yellowRedCardsB)
 
                 if group.complete:
                     pass
