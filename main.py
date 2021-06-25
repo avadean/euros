@@ -44,8 +44,9 @@ tournament.playGame('Russia', 'Denmark', 1, 4, yellowCardsA=2, yellowCardsB=1)
 tournament.playGame('Finland', 'Belgium', 0, 2)
 tournament.playGame('Croatia', 'Scotland', 3, 1, yellowCardsA=1, yellowCardsB=1)
 tournament.playGame('Czech Republic', 'England', 0, 1, yellowCardsA=1)
+tournament.playGame('Sweden', 'Poland', 3, 2, yellowCardsA=1, yellowCardsB=2)
+tournament.playGame('Slovakia', 'Spain', 0, 5, yellowCardsA=2, yellowCardsB=2)
+tournament.playGame('Portugal', 'France', 2, 2, yellowCardsB=3)
+tournament.playGame('Germany', 'Hungary', 2, 2, yellowCardsA=1, yellowCardsB=1)
 
 print(tournament)
-
-
-
